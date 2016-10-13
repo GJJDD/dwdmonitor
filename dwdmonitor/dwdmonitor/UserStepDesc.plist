@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ViewController</key>
+	<dict>
+		<key>desc</key>
+		<string>这是一个首页</string>
+		<key>click11</key>
+		<dict>
+			<key>uploadCountTactics</key>
+			<string>定时上传策略</string>
+			<key>desc</key>
+			<string>这是一个点击label的操作</string>
+		</dict>
+		<key>click:</key>
+		<dict>
+			<key>uploadCountTactics</key>
+			<string>定时上传策略</string>
+			<key>desc</key>
+			<string>这是一个点击按钮的操作</string>
+		</dict>
+	</dict>
+	<key>DViewController</key>
+	<dict>
+		<key>desc</key>
+		<string>第二个页面的描述</string>
+		<key>myclick:</key>
+		<dict>
+			<key>uploadCountTactics</key>
+			<string>定时上传策略</string>
+			<key>desc</key>
+			<string>回到第一个页面</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

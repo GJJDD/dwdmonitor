@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391A465D1DAA643F003E62C4 /* DWDMonitorMemoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 391A465C1DAA643F003E62C4 /* DWDMonitorMemoryManager.m */; };
+		394D44D61D9CB4CE00AAD3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D44D51D9CB4CE00AAD3AF /* main.m */; };
+		394D44D91D9CB4CE00AAD3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D44D81D9CB4CE00AAD3AF /* AppDelegate.m */; };
+		394D44DC1D9CB4CE00AAD3AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D44DB1D9CB4CE00AAD3AF /* ViewController.m */; };
+		394D44DF1D9CB4CE00AAD3AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394D44DD1D9CB4CE00AAD3AF /* Main.storyboard */; };
+		394D44E11D9CB4CE00AAD3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394D44E01D9CB4CE00AAD3AF /* Assets.xcassets */; };
+		394D44E41D9CB4CE00AAD3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394D44E21D9CB4CE00AAD3AF /* LaunchScreen.storyboard */; };
+		394D44EF1D9CB4CE00AAD3AF /* dwdmonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D44EE1D9CB4CE00AAD3AF /* dwdmonitorTests.m */; };
+		394D44FA1D9CB4CE00AAD3AF /* dwdmonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D44F91D9CB4CE00AAD3AF /* dwdmonitorUITests.m */; };
+		394D450F1D9CB69700AAD3AF /* DWDUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D450E1D9CB69700AAD3AF /* DWDUncaughtExceptionHandler.m */; };
+		394D45121D9CB6AD00AAD3AF /* UIApplication+DWDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D45111D9CB6AD00AAD3AF /* UIApplication+DWDEvent.m */; };
+		394D45E81D9CE52300AAD3AF /* DWDTrackingUserStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D45E71D9CE52300AAD3AF /* DWDTrackingUserStepsManager.m */; };
+		394D45EB1D9CEB3A00AAD3AF /* DWDUserSteps.m in Sources */ = {isa = PBXBuildFile; fileRef = 394D45EA1D9CEB3A00AAD3AF /* DWDUserSteps.m */; };
+		399CBDAA1DACC9A000788B7A /* UserStepDesc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 399CBDA91DACC9A000788B7A /* UserStepDesc.plist */; };
+		399CBDB01DAE14CA00788B7A /* UIViewController+DWDRetention.m in Sources */ = {isa = PBXBuildFile; fileRef = 399CBDAF1DAE14CA00788B7A /* UIViewController+DWDRetention.m */; };
+		399CBDB61DAE235500788B7A /* DWDRuntimeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 399CBDB51DAE235500788B7A /* DWDRuntimeMethod.m */; };
+		399CBDBB1DAF3B4B00788B7A /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399CBDBA1DAF3B4B00788B7A /* DViewController.m */; };
+		39F9CEE61D9E01390024FF66 /* NSString+DWDDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F9CEE51D9E01390024FF66 /* NSString+DWDDate.m */; };
+		39F9CEE91D9E0F200024FF66 /* NSString+DWDDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F9CEE81D9E0F200024FF66 /* NSString+DWDDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		394D44EB1D9CB4CE00AAD3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394D44C91D9CB4CE00AAD3AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394D44D01D9CB4CE00AAD3AF;
+			remoteInfo = dwdmonitor;
+		};
+		394D44F61D9CB4CE00AAD3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394D44C91D9CB4CE00AAD3AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394D44D01D9CB4CE00AAD3AF;
+			remoteInfo = dwdmonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		391A465B1DAA643F003E62C4 /* DWDMonitorMemoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDMonitorMemoryManager.h; sourceTree = "<group>"; };
+		391A465C1DAA643F003E62C4 /* DWDMonitorMemoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDMonitorMemoryManager.m; sourceTree = "<group>"; };
+		394D44D11D9CB4CE00AAD3AF /* dwdmonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dwdmonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		394D44D51D9CB4CE00AAD3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		394D44D71D9CB4CE00AAD3AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		394D44D81D9CB4CE00AAD3AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		394D44DA1D9CB4CE00AAD3AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		394D44DB1D9CB4CE00AAD3AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		394D44DE1D9CB4CE00AAD3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		394D44E01D9CB4CE00AAD3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394D44E31D9CB4CE00AAD3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		394D44E51D9CB4CE00AAD3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394D44EA1D9CB4CE00AAD3AF /* dwdmonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dwdmonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		394D44EE1D9CB4CE00AAD3AF /* dwdmonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dwdmonitorTests.m; sourceTree = "<group>"; };
+		394D44F01D9CB4CE00AAD3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394D44F51D9CB4CE00AAD3AF /* dwdmonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dwdmonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		394D44F91D9CB4CE00AAD3AF /* dwdmonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dwdmonitorUITests.m; sourceTree = "<group>"; };
+		394D44FB1D9CB4CE00AAD3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394D450D1D9CB69700AAD3AF /* DWDUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		394D450E1D9CB69700AAD3AF /* DWDUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		394D45101D9CB6AD00AAD3AF /* UIApplication+DWDEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+DWDEvent.h"; sourceTree = "<group>"; };
+		394D45111D9CB6AD00AAD3AF /* UIApplication+DWDEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+DWDEvent.m"; sourceTree = "<group>"; };
+		394D45E61D9CE52300AAD3AF /* DWDTrackingUserStepsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDTrackingUserStepsManager.h; sourceTree = "<group>"; };
+		394D45E71D9CE52300AAD3AF /* DWDTrackingUserStepsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDTrackingUserStepsManager.m; sourceTree = "<group>"; };
+		394D45E91D9CEB3A00AAD3AF /* DWDUserSteps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDUserSteps.h; sourceTree = "<group>"; };
+		394D45EA1D9CEB3A00AAD3AF /* DWDUserSteps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDUserSteps.m; sourceTree = "<group>"; };
+		399CBDA91DACC9A000788B7A /* UserStepDesc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserStepDesc.plist; sourceTree = "<group>"; };
+		399CBDAE1DAE14CA00788B7A /* UIViewController+DWDRetention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DWDRetention.h"; sourceTree = "<group>"; };
+		399CBDAF1DAE14CA00788B7A /* UIViewController+DWDRetention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DWDRetention.m"; sourceTree = "<group>"; };
+		399CBDB41DAE235500788B7A /* DWDRuntimeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWDRuntimeMethod.h; sourceTree = "<group>"; };
+		399CBDB51DAE235500788B7A /* DWDRuntimeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWDRuntimeMethod.m; sourceTree = "<group>"; };
+		399CBDB91DAF3B4B00788B7A /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		399CBDBA1DAF3B4B00788B7A /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		39F9CEE41D9E01390024FF66 /* NSString+DWDDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DWDDate.h"; sourceTree = "<group>"; };
+		39F9CEE51D9E01390024FF66 /* NSString+DWDDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DWDDate.m"; sourceTree = "<group>"; };
+		39F9CEE71D9E0F200024FF66 /* NSString+DWDDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DWDDevice.h"; sourceTree = "<group>"; };
+		39F9CEE81D9E0F200024FF66 /* NSString+DWDDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DWDDevice.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		394D44CE1D9CB4CE00AAD3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D44E71D9CB4CE00AAD3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D44F21D9CB4CE00AAD3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394D44C81D9CB4CE00AAD3AF = {
+			isa = PBXGroup;
+			children = (
+				394D44D31D9CB4CE00AAD3AF /* dwdmonitor */,
+				394D44ED1D9CB4CE00AAD3AF /* dwdmonitorTests */,
+				394D44F81D9CB4CE00AAD3AF /* dwdmonitorUITests */,
+				394D44D21D9CB4CE00AAD3AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		394D44D21D9CB4CE00AAD3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394D44D11D9CB4CE00AAD3AF /* dwdmonitor.app */,
+				394D44EA1D9CB4CE00AAD3AF /* dwdmonitorTests.xctest */,
+				394D44F51D9CB4CE00AAD3AF /* dwdmonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		394D44D31D9CB4CE00AAD3AF /* dwdmonitor */ = {
+			isa = PBXGroup;
+			children = (
+				394D44D71D9CB4CE00AAD3AF /* AppDelegate.h */,
+				394D44D81D9CB4CE00AAD3AF /* AppDelegate.m */,
+				394D44DA1D9CB4CE00AAD3AF /* ViewController.h */,
+				394D44DB1D9CB4CE00AAD3AF /* ViewController.m */,
+				399CBDB91DAF3B4B00788B7A /* DViewController.h */,
+				399CBDBA1DAF3B4B00788B7A /* DViewController.m */,
+				394D44DD1D9CB4CE00AAD3AF /* Main.storyboard */,
+				394D44E01D9CB4CE00AAD3AF /* Assets.xcassets */,
+				394D44E21D9CB4CE00AAD3AF /* LaunchScreen.storyboard */,
+				394D44E51D9CB4CE00AAD3AF /* Info.plist */,
+				394D44D41D9CB4CE00AAD3AF /* Supporting Files */,
+				394D450D1D9CB69700AAD3AF /* DWDUncaughtExceptionHandler.h */,
+				394D450E1D9CB69700AAD3AF /* DWDUncaughtExceptionHandler.m */,
+				394D45101D9CB6AD00AAD3AF /* UIApplication+DWDEvent.h */,
+				394D45111D9CB6AD00AAD3AF /* UIApplication+DWDEvent.m */,
+				394D45E61D9CE52300AAD3AF /* DWDTrackingUserStepsManager.h */,
+				394D45E71D9CE52300AAD3AF /* DWDTrackingUserStepsManager.m */,
+				394D45E91D9CEB3A00AAD3AF /* DWDUserSteps.h */,
+				394D45EA1D9CEB3A00AAD3AF /* DWDUserSteps.m */,
+				39F9CEE41D9E01390024FF66 /* NSString+DWDDate.h */,
+				39F9CEE51D9E01390024FF66 /* NSString+DWDDate.m */,
+				39F9CEE71D9E0F200024FF66 /* NSString+DWDDevice.h */,
+				39F9CEE81D9E0F200024FF66 /* NSString+DWDDevice.m */,
+				391A465B1DAA643F003E62C4 /* DWDMonitorMemoryManager.h */,
+				391A465C1DAA643F003E62C4 /* DWDMonitorMemoryManager.m */,
+				399CBDA91DACC9A000788B7A /* UserStepDesc.plist */,
+				399CBDAE1DAE14CA00788B7A /* UIViewController+DWDRetention.h */,
+				399CBDAF1DAE14CA00788B7A /* UIViewController+DWDRetention.m */,
+				399CBDB41DAE235500788B7A /* DWDRuntimeMethod.h */,
+				399CBDB51DAE235500788B7A /* DWDRuntimeMethod.m */,
+			);
+			path = dwdmonitor;
+			sourceTree = "<group>";
+		};
+		394D44D41D9CB4CE00AAD3AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				394D44D51D9CB4CE00AAD3AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		394D44ED1D9CB4CE00AAD3AF /* dwdmonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				394D44EE1D9CB4CE00AAD3AF /* dwdmonitorTests.m */,
+				394D44F01D9CB4CE00AAD3AF /* Info.plist */,
+			);
+			path = dwdmonitorTests;
+			sourceTree = "<group>";
+		};
+		394D44F81D9CB4CE00AAD3AF /* dwdmonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				394D44F91D9CB4CE00AAD3AF /* dwdmonitorUITests.m */,
+				394D44FB1D9CB4CE00AAD3AF /* Info.plist */,
+			);
+			path = dwdmonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		394D44D01D9CB4CE00AAD3AF /* dwdmonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394D44FE1D9CB4CE00AAD3AF /* Build configuration list for PBXNativeTarget "dwdmonitor" */;
+			buildPhases = (
+				394D44CD1D9CB4CE00AAD3AF /* Sources */,
+				394D44CE1D9CB4CE00AAD3AF /* Frameworks */,
+				394D44CF1D9CB4CE00AAD3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dwdmonitor;
+			productName = dwdmonitor;
+			productReference = 394D44D11D9CB4CE00AAD3AF /* dwdmonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		394D44E91D9CB4CE00AAD3AF /* dwdmonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394D45011D9CB4CE00AAD3AF /* Build configuration list for PBXNativeTarget "dwdmonitorTests" */;
+			buildPhases = (
+				394D44E61D9CB4CE00AAD3AF /* Sources */,
+				394D44E71D9CB4CE00AAD3AF /* Frameworks */,
+				394D44E81D9CB4CE00AAD3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394D44EC1D9CB4CE00AAD3AF /* PBXTargetDependency */,
+			);
+			name = dwdmonitorTests;
+			productName = dwdmonitorTests;
+			productReference = 394D44EA1D9CB4CE00AAD3AF /* dwdmonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		394D44F41D9CB4CE00AAD3AF /* dwdmonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394D45041D9CB4CE00AAD3AF /* Build configuration list for PBXNativeTarget "dwdmonitorUITests" */;
+			buildPhases = (
+				394D44F11D9CB4CE00AAD3AF /* Sources */,
+				394D44F21D9CB4CE00AAD3AF /* Frameworks */,
+				394D44F31D9CB4CE00AAD3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394D44F71D9CB4CE00AAD3AF /* PBXTargetDependency */,
+			);
+			name = dwdmonitorUITests;
+			productName = dwdmonitorUITests;
+			productReference = 394D44F51D9CB4CE00AAD3AF /* dwdmonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394D44C91D9CB4CE00AAD3AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DWD;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dianwoda;
+				TargetAttributes = {
+					394D44D01D9CB4CE00AAD3AF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+					};
+					394D44E91D9CB4CE00AAD3AF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 394D44D01D9CB4CE00AAD3AF;
+					};
+					394D44F41D9CB4CE00AAD3AF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TD22P5EE7X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 394D44D01D9CB4CE00AAD3AF;
+					};
+				};
+			};
+			buildConfigurationList = 394D44CC1D9CB4CE00AAD3AF /* Build configuration list for PBXProject "dwdmonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394D44C81D9CB4CE00AAD3AF;
+			productRefGroup = 394D44D21D9CB4CE00AAD3AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				394D44D01D9CB4CE00AAD3AF /* dwdmonitor */,
+				394D44E91D9CB4CE00AAD3AF /* dwdmonitorTests */,
+				394D44F41D9CB4CE00AAD3AF /* dwdmonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		394D44CF1D9CB4CE00AAD3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394D44E41D9CB4CE00AAD3AF /* LaunchScreen.storyboard in Resources */,
+				394D44E11D9CB4CE00AAD3AF /* Assets.xcassets in Resources */,
+				399CBDAA1DACC9A000788B7A /* UserStepDesc.plist in Resources */,
+				394D44DF1D9CB4CE00AAD3AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D44E81D9CB4CE00AAD3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D44F31D9CB4CE00AAD3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		394D44CD1D9CB4CE00AAD3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394D44DC1D9CB4CE00AAD3AF /* ViewController.m in Sources */,
+				394D44D91D9CB4CE00AAD3AF /* AppDelegate.m in Sources */,
+				394D450F1D9CB69700AAD3AF /* DWDUncaughtExceptionHandler.m in Sources */,
+				394D45121D9CB6AD00AAD3AF /* UIApplication+DWDEvent.m in Sources */,
+				399CBDB01DAE14CA00788B7A /* UIViewController+DWDRetention.m in Sources */,
+				394D45EB1D9CEB3A00AAD3AF /* DWDUserSteps.m in Sources */,
+				391A465D1DAA643F003E62C4 /* DWDMonitorMemoryManager.m in Sources */,
+				39F9CEE61D9E01390024FF66 /* NSString+DWDDate.m in Sources */,
+				394D44D61D9CB4CE00AAD3AF /* main.m in Sources */,
+				399CBDB61DAE235500788B7A /* DWDRuntimeMethod.m in Sources */,
+				399CBDBB1DAF3B4B00788B7A /* DViewController.m in Sources */,
+				39F9CEE91D9E0F200024FF66 /* NSString+DWDDevice.m in Sources */,
+				394D45E81D9CE52300AAD3AF /* DWDTrackingUserStepsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D44E61D9CB4CE00AAD3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394D44EF1D9CB4CE00AAD3AF /* dwdmonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D44F11D9CB4CE00AAD3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394D44FA1D9CB4CE00AAD3AF /* dwdmonitorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		394D44EC1D9CB4CE00AAD3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394D44D01D9CB4CE00AAD3AF /* dwdmonitor */;
+			targetProxy = 394D44EB1D9CB4CE00AAD3AF /* PBXContainerItemProxy */;
+		};
+		394D44F71D9CB4CE00AAD3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394D44D01D9CB4CE00AAD3AF /* dwdmonitor */;
+			targetProxy = 394D44F61D9CB4CE00AAD3AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		394D44DD1D9CB4CE00AAD3AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394D44DE1D9CB4CE00AAD3AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		394D44E21D9CB4CE00AAD3AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394D44E31D9CB4CE00AAD3AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		394D44FC1D9CB4CE00AAD3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		394D44FD1D9CB4CE00AAD3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		394D44FF1D9CB4CE00AAD3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = dwdmonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.dwdmonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		394D45001D9CB4CE00AAD3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = dwdmonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.dwdmonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		394D45021D9CB4CE00AAD3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = dwdmonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.dwdmonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dwdmonitor.app/dwdmonitor";
+			};
+			name = Debug;
+		};
+		394D45031D9CB4CE00AAD3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = dwdmonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.dwdmonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dwdmonitor.app/dwdmonitor";
+			};
+			name = Release;
+		};
+		394D45051D9CB4CE00AAD3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = dwdmonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.dwdmonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dwdmonitor;
+			};
+			name = Debug;
+		};
+		394D45061D9CB4CE00AAD3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TD22P5EE7X;
+				INFOPLIST_FILE = dwdmonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianwoda.dwdmonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dwdmonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		394D44CC1D9CB4CE00AAD3AF /* Build configuration list for PBXProject "dwdmonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394D44FC1D9CB4CE00AAD3AF /* Debug */,
+				394D44FD1D9CB4CE00AAD3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394D44FE1D9CB4CE00AAD3AF /* Build configuration list for PBXNativeTarget "dwdmonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394D44FF1D9CB4CE00AAD3AF /* Debug */,
+				394D45001D9CB4CE00AAD3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394D45011D9CB4CE00AAD3AF /* Build configuration list for PBXNativeTarget "dwdmonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394D45021D9CB4CE00AAD3AF /* Debug */,
+				394D45031D9CB4CE00AAD3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394D45041D9CB4CE00AAD3AF /* Build configuration list for PBXNativeTarget "dwdmonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394D45051D9CB4CE00AAD3AF /* Debug */,
+				394D45061D9CB4CE00AAD3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 394D44C91D9CB4CE00AAD3AF /* Project object */;
+}
